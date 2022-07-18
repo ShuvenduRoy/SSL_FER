@@ -9,7 +9,7 @@ Official Code for release for ***Analysis of Semi-Supervised Methods for Facial 
  
 Please cite our paper if you this code repo in your work.
 ```
-@inproceedings{roy2021spatiotemporal,
+@inproceedings{roy2022analysis,
   title={Analysis of Semi-Supervised Methods for Facial Expression Recognition},
   author={Roy, Shuvendu and Etemad, Ali},
   booktitle={2022 10th International Conference on Affective Computing and Intelligent Interaction (ACII)},
