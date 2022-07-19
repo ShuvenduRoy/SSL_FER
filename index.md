@@ -1,7 +1,7 @@
 
 # Analysis of Semi-Supervised Methods for Facial Expression Recognition
  
-Official Code for release for ***Analysis of Semi-Supervised Methods for Facial Expression Recognition***. The paper has been accepted in Affective Computing and Intelligent Interaction (ACII), 2022.
+Official Code for ***Analysis of Semi-Supervised Methods for Facial Expression Recognition***. The paper has been accepted in Affective Computing and Intelligent Interaction (ACII), 2022.
 
 
 
