@@ -3,7 +3,11 @@
  
 Official Code for release for ***Analysis of Semi-Supervised Methods for Facial Expression Recognition***. The paper has been accepted in Affective Computing and Intelligent Interaction (ACII), 2022.
 
-<img src="https://github.com/ShuvenduRoy/SSL_FER/blob/main/figures/overview.png?raw=true" alt="drawing" width="600"/>
+
+
+<p align="center">
+  <img src="https://github.com/ShuvenduRoy/SSL_FER/blob/main/figures/overview.png?raw=true" alt="drawing" width="600"/>
+</p>
 
 ### Dataset
 We used the following dataset 
@@ -46,7 +50,9 @@ python [ALGO_NAME].py --c [CONFIG_FILE]
 
 
 ### Results
-<img src="https://github.com/ShuvenduRoy/SSL_FER/blob/main/figures/results.png?raw=true" alt="drawing" width="700"/>
+<p align="center">
+ <img src="https://github.com/ShuvenduRoy/SSL_FER/blob/main/figures/results.png?raw=true" alt="drawing" width="700"/>
+</p>
 
 
 ### Acknowledgements
