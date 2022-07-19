@@ -1,37 +1,73 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/ShuvenduRoy/SSL_FER/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+# Analysis of Semi-Supervised Methods for Facial Expression Recognition
+ 
+Official Code for release for ***Analysis of Semi-Supervised Methods for Facial Expression Recognition***. The paper has been accepted in Affective Computing and Intelligent Interaction (ACII), 2022.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<img src="https://github.com/ShuvenduRoy/SSL_FER/blob/main/figures/overview.png?raw=true" alt="drawing" width="600"/>
 
-### Markdown
+### Dataset
+We used the following dataset 
+1. [AffectNet](http://mohammadmahoor.com/affectnet/)
+2. [FER-13](https://www.kaggle.com/datasets/msambare/fer2013)
+3. [RAF-DB](http://www.whdeng.cn/RAF/model1.html)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+Once the dataset is downloaded use the scripts in `datasets/preprocessing` to preprocess the dataset.
+The porcessed dataset structure should look like this:
+```
+dataset
+├── train
+│   ├── class_001
+|   |      ├── 1.jpg
+|   |      ├── 2.jpg
+|   |      └── ...
+│   ├── class_002
+|   |      ├── 1.jpg
+|   |      ├── 2.jpg
+|   |      └── ...
+│   └── ...
+└── val
+    ├── class_001
+    |      ├── 1.jpg
+    |      ├── 2.jpg
+    |      └── ...
+    ├── class_002
+    |      ├── 1.jpg
+    |      ├── 2.jpg
+    |      └── ...
+    └── ...
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+### Run
+Modify the config files in `config/` directory if needed.
 
-### Jekyll Themes
+```
+python [ALGO_NAME].py --c [CONFIG_FILE]
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ShuvenduRoy/SSL_FER/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+### Results
+<img src="https://github.com/ShuvenduRoy/SSL_FER/blob/main/figures/results.png?raw=true" alt="drawing" width="700"/>
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+
+### Acknowledgements
+The semi-supervised algorithm implementations are followed from the following repository: [TorchSSL](https://github.com/TorchSSL/TorchSSL)
+
+### Citation
+ 
+Please cite our paper if you this code repo in your work.
+```
+@inproceedings{roy2022analysis,
+  title={Analysis of Semi-Supervised Methods for Facial Expression Recognition},
+  author={Roy, Shuvendu and Etemad, Ali},
+  booktitle={2022 10th International Conference on Affective Computing and Intelligent Interaction (ACII)},
+  pages={1--8},
+  year={2022},
+  organization={IEEE}
+}
+```
+
+## Contact
+Thanks for your attention!
+If you have any suggestion or question, you can leave a message here or contact us directly:
+- shuvendu.roy@queensu.ca
+
