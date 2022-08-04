@@ -1,7 +1,12 @@
 
-# Analysis of Semi-Supervised Methods for Facial Expression Recognition
+# FER SSL
  
-Official Code for ***Analysis of Semi-Supervised Methods for Facial Expression Recognition***. The paper has been accepted in Affective Computing and Intelligent Interaction (ACII), 2022.
+Official Of our ACII 2022 paper:
+
+> [**Analysis of Semi-Supervised Methods for Facial Expression Recognition**](https://arxiv.org/abs/2208.00544)      
+> Shuvendu Roy, Ali Etemad       
+> *In Proceedings of the IEEE International Conference on Affective Computing and Intelligent Interaction (ACII), 2022*
+
 
 
 
