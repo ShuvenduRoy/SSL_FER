@@ -61,7 +61,7 @@ python [ALGO_NAME].py --c [CONFIG_FILE]
 
 
 ### Acknowledgements
-The semi-supervised algorithm implementations are followed from the following repository: [TorchSSL](https://github.com/TorchSSL/TorchSSL)
+The semi-supervised algorithm implementations are followed from the following repository: [TorchSSL](https://github.com/TorchSSL/TorchSSL). We thank the authors for releasing their code. If you use our model and code, please consider citing these works as well.
 
 ### Citation
  
